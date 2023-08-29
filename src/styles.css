@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.primary-color {
+  color: #650e3d;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
+.font-sm {
+  font-size: 0.7rem;
+}
+.font-md {
+  font-size: 0.9rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.message {
+  color: red;
+  font-size: 0.8rem;
+  min-height: 0.8rem;
+  padding: 0.3rem 0rem;
+}
+
+.text-center {
+  text-align: center;
+}
